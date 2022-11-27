@@ -1,0 +1,95 @@
+/* Setting the White Mt. imjage as the background at the 
+start of the website. This image should be overtaken as 
+user moves down the site. */
+
+.starterimage {
+    background-image: url(images/White-Mt.jpg);
+    position: relative;
+    min-width: 100%;
+    min-height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+.navcontainer {
+    position: rel;
+    width: auto;
+    margin: 0;
+}
+
+img {
+    min-height: 200px;
+    width: 100%;
+}
+
+
+
+/* Creating the top nagigation bar. */
+.topbar {
+    background-color:rgb(31, 38, 48);
+    overflow: hidden;
+}
+
+.topbar a {
+    float: left;
+    color:rgb(141, 156, 179);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 27px;
+}
+
+.topbar i {
+    float: left;
+    color: rgb(141, 156, 179);
+    text-align: center;
+    padding: -1px 12px;
+    font-size: 30px;
+}
+
+.topbar a:hover {
+    background-color: rgb(119, 167, 236);
+}
+
+.whenactive {
+    background-color: rgb(50, 91, 146);
+}
+
+
+
+
+/* .centered, p, .intro1, .intro2:
+   centers text, gets rid of spacing issues, fixes the font size and color */
+.centered {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Fixes the spacing between the paragraphs and edits the font size and color. */
+p {
+    margin: 0%;
+}
+
+.centeredp {
+    left: 25%;
+    right: 25%;
+}
+
+.intro1 {
+    font-size: 25px;
+    color:rgb(27, 34, 44)
+}
+
+.intro2 {
+    font-size: 65px;
+    color:rgb(27, 34, 44)
+}
+
+.gradient1 {
+    top: 75%;
+    height: 400px;
+    background-color: rgb(31, 38, 48);
+    background-image: linear-gradient(rgb(69, 75, 89), white);
+}

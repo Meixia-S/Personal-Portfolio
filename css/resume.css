@@ -1,0 +1,16 @@
+/* setting up the background cover so it looks good */
+.bgImage {
+    background-image: url("images/White-Paper");
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.resumeImage {
+    height: 25%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
